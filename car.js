@@ -8,6 +8,7 @@ let Carmodelerror = document.getElementById('Carmodel-error');
 let RegistrationNumbererror = document.getElementById('RegistrationNumber-error');
 let CarColorerror = document.getElementById('CarColor-error');
 
+
 //functions for validations of four fields 
 CarMakeInput.addEventListener('input', function () {
   let CarMake = CarMakeInput.value;
