@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="car.css">
+  </head>
+  <body>
+    <form >
+      <div>
+        <label for="CarMake">Car Make</label>
+        <input type="text" id="CarMake" name="CarMake">
+        <span id="CarMake-error"></span>
+      </div>
+
+      <div>
+        <label for="Carmodel">Car model</label>
+        <input type="text" id="Carmodel" name="Carmodel" >
+        <span id="Carmodel-error"></span>
+      </div>
+
+      <div>
+        <label for="RegistrationNumber">Car Registration Number</label>
+        <input type="text" id="RegistrationNumber" name="RegistrationNumber" >
+        <span id="RegistrationNumber-error"></span>
+      </div>
+      
+      <div>
+        <label for="CarColor">Car Color</label>
+        <input type="text" id="CarColor" name="CarColor" >
+        <span id="CarColor-error"></span>
+      </div>
+      
+
+      <input type="button" onclick="addinforow()"  value="Submit">
+      <div>
+      <span id="error"></span>
+      </div>
+
+    </form>
+
+    <table id="infotable">
+      <thead>
+      <tr>
+        <th>Make</th>
+        <th>Model</th>
+        <th>Registration Number</th>
+        <th>Color</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+    </table>
+    <script src="car.js"></script>    
+  </body>
+</html>
